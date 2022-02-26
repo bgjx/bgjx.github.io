@@ -412,12 +412,20 @@ footer hr.solid {
 }
 .under-maintenance{
     display: inline-block;
-    position: relative;
     font-size: 1.75rem;
     color: #222021;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    padding: 50vh 50vh 50vh ;
+    margin-top: 23%;
+    margin-left: 23%;
+}
+@media(max-width:767px){
+    .under-maintenance{
+        margin-top:320px;
+        margin-left: 15px;
+        font-size: 1.25rem;
+    }
+
 }
 /*---------------------------------------
  SOCIAL MEDIA 
