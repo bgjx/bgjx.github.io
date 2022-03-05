@@ -36,7 +36,7 @@ footer{
     position: relative;
     display: block;
     min-height: 30vh;
-    background-color: #222021;
+    background-color: #231f20;
     align-items: center;
     margin: auto;
 }
@@ -73,17 +73,18 @@ footer{
 /* Font Style for titile */
 .title-1, .title-2, .title-3, .title-4, .title-5 {
     font-family: 'Poppins', sans-serif;
-    color:#fff;
+    color:#231f20;
 }
 .title-1{
     position:relative;
-    font-size:7.0rem ;
+    font-size:9.0rem ;
     letter-spacing:1px ;   
 }
 .title-2{
     position:relative;
     font-size:5.5rem ;
-    letter-spacing:1px ; 
+    letter-spacing:1px ;
+    line-height: 2.5rem; 
 }
 .title-3{
     position:relative;
@@ -92,7 +93,7 @@ footer{
 }
 .title-4{
     position:relative;
-    font-size:2.75rem ;
+    font-size:2.0rem ;
     letter-spacing:1px ; 
 }
 .title-5{
@@ -168,13 +169,14 @@ footer{
 @media (max-width: 767px) {
     .title-1{
         position:relative;
-        font-size:2.25rem ;
+        font-size:4rem ;
         letter-spacing:1px ;   
     }
     .title-2{
         position:relative;
-        font-size:2.0rem ;
-        letter-spacing:1px ; 
+        font-size:2.8rem ;
+        letter-spacing:1px ;
+        line-height: 1rem; 
     }
     .title-3{
         position:relative;
@@ -266,13 +268,13 @@ hr.rounded {
     border-radius: 5px;
 }
 footer hr.solid {
-    border-top: 1px solid #ed2027;
+    border-top: 1px solid #efd259;
 } 
 /* Caption */
 .landcapt{
     position: relative;
     display: inline-block;
-    margin-top: 35%;
+    margin-top: 25%;
     margin-left: 5%;
     font-weight: 600;
 }
@@ -416,7 +418,7 @@ footer hr.solid {
     color: #222021;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    margin-top: 23%;
+    margin-top: 30%;
     margin-left: 23%;
 }
 @media(max-width:767px){
@@ -434,36 +436,36 @@ footer hr.solid {
     position: relative;
     display: inline-block;
     z-index: 99;
-    padding: 2px;
-    margin-top: 50vh;
-    max-width: 75px;
+    padding: 1px;
+    margin-top: 2vh;
+    max-width: 85px;
     min-height: 20px;
 }
 .landing-pages .social-2 img{
     position: relative;
     display: inline-block;
     z-index: 99;
-    padding: 2px;
-    margin-top: 2%;
-    max-width: 75px;
+    padding: 1px;
+    margin-top: 1%;
+    max-width: 85px;
     min-height: 20px;
 }
 footer .social img{
     position: relative;
     display: inline-block;
     z-index: 99;
-    padding: 2px;
+    padding: 1px;
     margin-top: 2%;
-    max-width: 40px;
+    max-width: 45px;
     min-height: 20px;
 }
 footer .social-2 img{
     position: relative;
     display: inline-block;
     z-index: 99;
-    padding: 2px;
-    margin-top: 2%;
-    max-width: 40px;
+    padding: 1px;
+    margin-top: 1%;
+    max-width: 45px;
     min-height: 20px;
 }
 .about-me {
@@ -490,23 +492,22 @@ footer .social-2 img{
 .btn-theme-1 {
     background-color: transparent;
     padding: 8px;
-    border-width: 2px;
     border-style: solid;
-    border-color: #ed2027;
+    border-color: #231f20;
     border-width: 2px;
-    border-radius: 10px;
 }
 .btn-theme-1:hover {
-    background-color: #ed2027;
+    background-color: #231f20a2;    
     color: #29fd2e;
     font-weight: 600;
 }
 /* Animation */
 .type1 {
-    border-right: solid 3px rgba(0,255,0,.75);
+    border-right: solid 3px #231f20;
     white-space: nowrap;
     overflow: hidden;    
-    color: white;
+    color: #231f20;
+    font-weight: 600;
 }
 .type1 {
     animation: animated-text 4s steps(29,end) 1s 1 normal both,
@@ -518,7 +519,7 @@ footer .social-2 img{
 }
 /* cursor animations */
 @keyframes animated-cursor{
-    from{border-right-color:#29fd2e;}
+    from{border-right-color:#231f20;}
     to{border-right-color: transparent;}
 }
 /* BALL EFFECT */
@@ -563,20 +564,20 @@ LINK
 ---------------------------------- */
 /* unvisited link */
 footer a:link {
-    color:white;  
+    color:#efd259;  
 }
 /* visited link */
 footer a:visited {
-    color:#ed2027;
+    color:rgb(237, 240, 243);
 }
 /* mouse over link */
 footer a:hover {
     text-decoration: none;
-    color: rgb(99, 187, 209);
+    color: #26b1e5;
 }
 /* selected link */
 footer a:active {
-    color: rgb(174, 52, 204);
+    color: #ee5452;
 }
 /* SCROLL INDICATOR */
 #main-scroll-indicator {
@@ -588,7 +589,7 @@ footer a:active {
     pointer-events:none
 }
 #main-scroll-indicator path {
-    fill:#fff
+    fill:#231f20
 }
 html.no-js #main-scroll-indicator {
     display:none
@@ -597,7 +598,7 @@ html.no-js #main-scroll-indicator {
     position:absolute;
     left:-4px;
     bottom:50px;
-    color: #fff;
+    color: #231f20;
     white-space:nowrap;
     transform-origin:0 0;
     transform:rotate(-90deg);
@@ -673,11 +674,11 @@ SCROLL BAR STYLE
 }
 #style-4::-webkit-scrollbar-thumb
 {
-	background-color:#ed2027;
+	background-color:#ee5452;
     border-radius: 50px;
 }
 #style-4::-webkit-scrollbar-thumb:hover{
-	background-color:#1ac71d;
+	background-color:#26b1e5;
 }
 /* end of scroll bar style */
 /* Scroll to top */
@@ -689,14 +690,14 @@ SCROLL BAR STYLE
     z-index: 999;
 }
 .scroll-up a {
-    background: #29fd2e;
+    background: #efd259;
     display: block;
     height: 30px;
     width: 30px;
     text-align: center;
     line-height: 30px;
     font-size: 20px;
-    color: #ed2027;
+    color: #231f20;
     opacity: 0.6;
     border-radius: 2px;
 }
@@ -833,7 +834,7 @@ Links Style
   
 .loader {
     position: absolute;
-    border-left: 2px solid #ed2027;
+    border-left: 2px solid #efd259;
     border-top: 2px solid rgba(255, 255, 255, 0.2);
     border-right: 2px solid rgba(255, 255, 255, 0.2);
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
@@ -885,7 +886,7 @@ Links Style
      Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-    background-color: #1D1F20;
+    background-color: #231f20;
     max-height: 70px;
     opacity: 1;
     border: 0;
@@ -895,6 +896,7 @@ Links Style
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1.4rem;
+    font-weight: 700;
     transition: background, padding 0.4s ease-in-out 0s;
 }
   
@@ -912,14 +914,14 @@ Links Style
   
 .navbar-custom .navbar-brand {
     letter-spacing: 4px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
-    color: #fff;
+    color: rgb(237, 240, 243);
 }
   
 .navbar-custom .nav li > a {
     position: relative;
-    color: #ed2027;
+    color: rgb(237, 240, 243);
 }
   
 .navbar-custom .dropdown-menu > li > a {
@@ -974,7 +976,7 @@ Links Style
 }
   
 .navbar-custom .navbar-toggle .icon-bar {
-    background: #ed2027;
+    background: #efd259;
 }
   
 .dropdown-menu {
@@ -992,7 +994,6 @@ Links Style
 @media (min-width: 768px) {
     .navbar-transparent {
       background: transparent;
-      visibility: hidden;
       padding-bottom: 15px;
       padding-top: 15px;
     }
@@ -1133,5 +1134,192 @@ Links Style
       white-space: normal;
       padding: 0;
       margin-left: 0;
+    }
+}
+
+/*--------------------------------
+MENU AT SIDE OF PAGES
+--------------------------------*/
+.side-menu{
+    height: 100vh;
+    background-color: #1D1F20;
+    width: 17vw;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.side-menu .logo img{
+    margin:0 auto 5%;
+    max-width: 15rem;
+    display: flex;
+}
+.side-menu .profile img{
+    margin-top: 15%;
+    max-width: 120px;
+    border: solid;
+    display: inline-block;
+    border-width: 6px;
+    border-radius: 50%;
+    border-color: #ee5552cc;
+}
+.item{
+    margin-top: 3rem;
+}
+.item a{
+    margin: 0 10% 0 10%;
+    font-weight: 500;
+    font-size: 1.75rem;
+    display: block;
+    padding-bottom: 1rem;
+    border-top: 1px solid #4b4b4b;
+    text-align: center;
+}
+
+/*----------------------------------
+LINK 
+---------------------------------- */
+/* unvisited link */
+.side-menu a:link {
+    color:#efd259;  
+}
+/* visited link */
+.side-menu a:visited {
+    color:rgb(237, 240, 243);
+}
+/* mouse over link */
+.side-menu a:hover {
+    text-decoration: none;
+    color: #26b1e5;
+}
+/* selected link */
+.side-menu a:active {
+    color: #ee5452;
+}
+
+.side-menu .social,
+.side-menu .social-2{
+    text-align: center;
+}
+.side-menu .social img{
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+    padding: 1px;
+    margin-top: 10%;
+    max-width: 55px;
+    min-height: 20px;
+}
+.side-menu .social-2 img{
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+    padding: 1px;
+    margin-top: 2%;
+    max-width: 55px;
+    min-height: 20px;
+    margin-bottom: 5vh;
+}
+
+
+.font-menu-1, .font-menu-2, .font-menu-3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-menu-1{
+    position:relative;
+    font-size:3rem ;
+    letter-spacing:1px ;
+    font-weight: 600;
+}
+.font-menu-2{
+    position:relative;
+    font-size:2.2rem ;
+    letter-spacing:1px ;
+    font-weight: 600;
+    color: #fff;
+}
+.font-menu-3{
+    position:relative;
+    color: #efd259;
+    font-size:1.2rem ;
+    letter-spacing:1px ;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #4b4b4b;
+    margin:0 3% 0 3% ;
+}
+.font-menu-4{
+    position:relative;
+    color: #ed2027;
+    font-size:1.2rem ;
+    letter-spacing:1px ;
+    padding-left: 10%;
+    margin:0 3% 0 3% ;
+}
+.bg-image img{
+    display:flex;
+    position:absolute;
+    z-index: 0;
+    max-width: 350px;
+    margin-top: 25vh;
+    margin-left: 55vw;
+}
+/*---------------------
+BLOGS SITE STYLE
+-----------------------*/
+main.blogs{
+    padding-left: 15vw;
+}
+/* MEDIA FOR SIDE MENU */
+@media (max-width: 1300px) {
+    main.blogs{
+        padding-left: 0;
+    }
+}
+/* check button */
+.checkbtn{
+    font-size: 2.5rem;
+    color:#efd259;
+    margin-right: 2rem;
+    cursor: pointer;
+    position:fixed;
+    z-index: 99;
+    display: none;
+    margin-top: 5%;
+    padding: 3px 8px 3px 8px;
+    border-radius: 8px;
+    left: 80%;
+    background-color: #231f20d0;
+}
+#check{
+    display: none;
+}
+@media (max-width:960px) {
+    .checkbtn{
+        display:block;
+    }
+    .side-menu .social img{
+        margin-top: 3%;
+    }
+   .side-menu .logo img{
+        margin:auto;
+    }
+    .side-menu .social-2 img{
+        margin-bottom: 5%;
+    }
+   .side-menu{
+        left: -100%;
+        width: 100%;
+        -ms-transition: all 0.7s;
+        -webkit-transition: all 0.7s ;
+        transition: all 0.7s;
+    }
+    #check:checked ~  .side-menu{
+        left: 0;
     }
 }
