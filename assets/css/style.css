@@ -1300,6 +1300,10 @@ main.blogs{
     display: none;
 }
 @media (max-width:960px) {
+    .bg-image img{
+        display:flex;
+        position:fixed;
+    }
     .checkbtn{
         display:block;
     }
