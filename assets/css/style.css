@@ -36,11 +36,13 @@ footer{
     position: relative;
     display: block;
     min-height: 30vh;
-    background-color: #231f20;
+    background-color: #131313;
     align-items: center;
     margin: auto;
 }
-
+.divider{
+    height: 4rem;
+}
 /* SCrollBar Style */
 .scrollbar{
 	margin-left: 22px;
@@ -393,6 +395,68 @@ footer hr.solid {
 /*----------------------------------------------------------------
  SCETION STYLE 
 -----------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.landing-home{
+    display: block;
+    background: #efd259;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+}
+.landing-home .bg-image2{
+    margin: 3% auto 2% ;
+    position: relative;
+    display: table;
+}
+.landing-home .bg-image2>img{
+    max-width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.landing-home .headline-text{
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    color: #efd259;
+    background-color: #231f20;
+    line-height: 4rem;
+    margin-bottom: 2%;
+}
+.landing-home .contact-text{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-size: 2.0rem;
+    color: #231f20;
+}
+.landing-home .nav-links{
+    margin-top: 2%;
+    text-align: center;
+}
+.landing-home .nav-links>a{
+    font-family:'Teko', sans-serif;
+    font-size: 2rem;
+    color: #231f20;
+    text-transform: uppercase;
+}
+.home-footer{
+    text-align: center;
+}
+.home-footer>img{
+    max-width: 100px;
+    margin-top: 2%;
+}
+.home-footer>p{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #231f20;
+}
 .landing-pages{
     display: block;
     position: relative;
@@ -422,16 +486,75 @@ footer hr.solid {
     margin-left: 23%;
 }
 @media(max-width:767px){
+    .landing-home .bg-image2{
+        margin: 10% auto 5% ;
+    }
     .under-maintenance{
         margin-top:320px;
         margin-left: 15px;
         font-size: 1.25rem;
     }
-
+    .landing-home .headline-text{
+        font-size: 1.5rem;
+        color: #efd259;
+        background-color: #231f20;
+        line-height: 2rem;
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+    .landing-home .contact-text{
+        font-size: 2rem;
+    }
+    .landing-home .nav-links{
+        margin-top: 10%;
+        text-align: center;
+    }
+    .landing-home .nav-links>a{
+        font-family:'Teko', sans-serif;
+        font-size: 2rem;
+        color: #231f20;
+        text-transform: uppercase;
+    }
+    .home-footer{
+        text-align: center;
+        position: relative;
+        margin-top: 30%;
+    }
+    .home-footer>img{
+        max-width: 100px;
+        margin-top: 2%;
+    }
+    .home-footer>p{
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #231f20;
+    }
 }
 /*---------------------------------------
  SOCIAL MEDIA 
 ---------------------------------------*/
+.home-social{
+    margin: auto;
+    text-align: center;
+}
+.home-social img{
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+    margin:0 10px;
+    max-width: 105px;
+    min-height: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+@media (max-width:767px) {
+    .home-social img{
+        max-width: 65px;
+        margin: 0 5px;
+    }
+}
 .landing-pages .social img{
     position: relative;
     display: inline-block;
@@ -886,7 +1009,7 @@ Links Style
      Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-    background-color: #231f20;
+    background-color: #131313;
     max-height: 70px;
     opacity: 1;
     border: 0;
@@ -921,9 +1044,9 @@ Links Style
   
 .navbar-custom .nav li > a {
     position: relative;
-    color: rgb(237, 240, 243);
+    color: #fff;
 }
-  
+ 
 .navbar-custom .dropdown-menu > li > a {
     border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
     padding: 11px 15px;
@@ -1142,7 +1265,7 @@ MENU AT SIDE OF PAGES
 --------------------------------*/
 .side-menu{
     height: 100vh;
-    background-color: #1D1F20;
+    background-color: #131313;
     width: 17vw;
     position: fixed;
     display: inline-block;
@@ -1151,7 +1274,7 @@ MENU AT SIDE OF PAGES
     padding: 0;
     top: 0;
     bottom: 0;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    box-shadow: rgb(27, 27, 27) 0px 3px 8px; 
 }
 
 .side-menu .logo img{
@@ -1166,7 +1289,7 @@ MENU AT SIDE OF PAGES
     display: inline-block;
     border-width: 6px;
     border-radius: 50%;
-    border-color: #ee5552cc;
+    border-color: #efd159bd;
 }
 .item{
     margin-top: 3rem;
@@ -1274,6 +1397,10 @@ BLOGS SITE STYLE
 -----------------------*/
 main.blogs{
     padding-left: 15vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #efd259;
+    display: flex;
 }
 /* MEDIA FOR SIDE MENU */
 @media (max-width: 1300px) {
@@ -1329,4 +1456,116 @@ main.blogs{
     #check:checked ~  .side-menu{
         left: 0;
     }
+}
+/*=================================================================== 
+                        BLOGS&ARTS CONTENTS
+=====================================================================*/
+.arts-page{
+    background-color: #131313;
+    padding: 1.25rem;
+    width: 85%;
+    display: flex;
+    margin: 2% auto 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#tabcontent .tab-content {
+    font-family: 'Raleway', sans-serif;
+    color : rgb(228, 228, 228);
+    padding : 5px 15px;
+}
+@media (max-width:767px){
+    #tabcontent .tab-content {
+        padding : 5px 5px;
+    }
+}
+#tabcontent .nav-pills > li > a {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 4px 4px 0 0 ;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-bottom: solid 2px ;
+    border-color:#999 ;
+}
+#tabcontent .nav-pills > li > a:focus {
+    border-color: #ed2027;
+}
+#tabcontent .nav-pills > li > a:hover {
+    border-color: #26b1e5;
+}
+#tabcontent .nav-pills > li > a:visited {
+    border-color: #941da8;
+}
+.img-share{
+    background-color: #1A1A1A;
+    max-width: 100%;
+    margin: 5% auto 2% auto;
+    padding: 4rem;
+    box-shadow: rgba(86, 86, 87, 0.25) 0px 13px 27px -5px, rgba(76, 76, 77, 0.25) 0px 8px 16px -8px;
+    border: solid 1px rgb(59, 59, 59);
+}
+.img-share .picture{
+    display: flex;
+    position: relative;
+    max-width: 90%;
+}
+.img-share .desc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:rgb(228, 228, 228);
+    vertical-align: bottom;
+}
+.img-share .picture img{
+    max-width: 80% ;
+    min-width: 30%;
+    height: auto;
+    width: auto;
+    padding-bottom: 2rem;
+}
+/*======================================================
+
+                MOVIES SITE
+
+========================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+.movie-headline, .movie-list{
+    position: relative;
+    display: inline-block;
+}
+.movie-headline .headline{
+    font-size: 3.8rem;
+    line-height:normal;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.movie-list .head-list{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+}
+.movie-headline p, .movie-list p{
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem !important;
+    color: #bbb;
+    margin: auto;
+}
+.movie-list .list-number{
+    margin: 7rem 0;
+}
+.movie-list img{
+    margin: 2rem 0;
+    position: relative;
+    display: flex;
+    max-width: 65%;
+}
+.movie-list iframe{
+    display: inline-block;
+    margin: 3rem auto ;
+    width: 100%;
+    height: 416px;
 }
