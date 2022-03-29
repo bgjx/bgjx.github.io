@@ -1403,7 +1403,7 @@ main.blogs{
     display: flex;
 }
 /* MEDIA FOR SIDE MENU */
-@media (max-width: 1300px) {
+@media (max-width: 960px) {
     main.blogs{
         padding-left: 0;
     }
