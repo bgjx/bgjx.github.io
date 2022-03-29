@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://bgjx.github.io/</loc>
+<lastmod>2022-03-29T09:29:31-00:00</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://bgjx.github.io/contents/about.html</loc>
+<lastmod>2022-03-29T09:29:31-00:00</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://bgjx.github.io/contents/arts.html</loc>
+<lastmod>2022-03-29T09:29:31-00:00</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://bgjx.github.io/blogs/</loc>
+<lastmod>2022-03-29T09:29:31-00:00</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+</urlset>
